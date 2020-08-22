@@ -23,6 +23,12 @@ p {
 	font-family: Impact, Charcoal, sans-serif;
 }
 
+.arduino01 {
+	width: 250px;
+	height: 250px;
+	border-radius: 4px;
+} 
+
 .title {
   	display: block;
   	color: #000;
