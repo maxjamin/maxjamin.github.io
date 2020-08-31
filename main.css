@@ -1,7 +1,11 @@
 hr {
 	width: 100%;
-	height: 10px;
-	background-color: #4db8ff;
+	height: 30px;
+	background-color: #006680;
+}
+
+body {
+  background-color: #ffffff;
 }
 
 div {
@@ -9,7 +13,7 @@ div {
   	margin: 0;
   	padding: 0;
   	width: 100%;
-  	background-color: #f1f1f1;
+  	background-color: #e6f5ff;
   	margin-top:20px;
   	box-shadow: 10px 10px 5px grey;
 }
@@ -18,9 +22,14 @@ div:hover {
 	background-color: #555;
 } 
 
+h1 {
+  font-size: 33px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
 p {
 	font-size: 18px;
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .arduino01 {
