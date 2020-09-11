@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<link rel="stylesheet" href="../main.css">
+	<title>Embedded 02</title>
+</head>
+<script type="text/javascript">
+	window.onload = function () {
+    	var element = document.getElementById('embedded02Video');
+    	element.muted = "muted";
+	}
+</script>
+
+<body>
+
+<h1>0x03 Embedded 02</h1>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="https://github.com/maxjamin">Github</a>
+  <a href="https://www.linkedin.com/in/bensmith96/">Linkin</a>
+</div>
+
+<img class="arduino01" src="../images/embedded05.jpg" alt="ATmega128p">
+
+<p>This project is my starting point in understanding Embedded software engineering. For this project I worked with the AVR micro-controller ATmega128p. I used the Pocket AVR Programmer along with AVRdude to upload the program to the microcontroller. The goal of this project was write numbers 0 through 9 to the 7-Segment display. Incrementing through them with a Button sensor<p>
+
+<h2>Items used:</h2>
+<ul>
+	<li>1x Pocket AVR Programmer</li> 
+	<li>1x ATmega328P</li>
+	<li>1x Breadboard</li>
+	<li>1x 16 MHz crystal</li>
+    <li>1x 10k resistor</li>
+    <li>2x 22 picofarad capacitors</li>
+    <li>1x 7-Segment Display</li>
+    <li>1x Buttom</li>
+</ul>
+
+
+<p>Program uploaded: </p>
+<img src="../images/embedded08.png" width="700px" alt="c program uploaded">
+
+<h3>Final result:</h3>
+<video id="embedded02Video" width="700" height="400" controls>
+  <source src="../images/embedded062.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video> 
+
+<h3>Sources:</h3>
+<ul>
+	<li><a href="http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf">http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf</li>
+	<li><a href="https://github.com/amirbawab/AVR-cheat-sheet">https://github.com/amirbawab/AVR-cheat-sheet</li>
+	<li><a href="https://maker.pro/custom/tutorial/learn-the-basics-of-io-pins-for-an-avr-microcontroller">https://maker.pro/custom/tutorial/learn-the-basics-of-io-pins-for-an-avr-microcontroller</li>
+</ul>
+
+</body>
+</html> 
