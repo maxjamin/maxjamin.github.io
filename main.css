@@ -3,7 +3,14 @@
 .topnav {
   overflow: hidden;
   background-color: #006680;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+
+}
+
+.pageMargin
+{
+	margin-right: 50px;
+	margin-left: 40px;
 }
 
 body {
@@ -12,9 +19,7 @@ body {
 
 .project {
   	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	width: 100%;
+  	/*width: 50%;*/
   	background-color: #e6f5ff;
   	margin-top:20px;
   	box-shadow: 10px 10px 5px grey;
@@ -49,12 +54,12 @@ div:hover {
 
 h1 {
   font-size: 33px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 p {
 	font-size: 18px;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 .arduino01 {
@@ -77,8 +82,8 @@ p {
   	color: #000;
   	padding: 8px 16px;
   	text-decoration: none;
-  	font-size: 25px;
-  	font-family: "Times New Roman", Times, serif;
+  	font-size: 20px;
+  	font-family: Verdana, Geneva, sans-serif;
 }
 
 .day {
