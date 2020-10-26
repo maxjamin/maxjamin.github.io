@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<link rel="stylesheet" href="../main.css">
+	<title>Embedded 02</title>
+</head>
+<script type="text/javascript">
+	window.onload = function () {
+    	var element = document.getElementById('embedded02Video');
+    	element.muted = "muted";
+	}
+</script>
+
+<body>
+
+<h1>0x02: Simple Heap</h1>
+
+<div class="topnav">
+  <a class="active" href="https://maxjamin.github.io/">Home</a>
+  <a href="https://github.com/maxjamin">Github</a>
+  <a href="https://www.linkedin.com/in/bensmith96/">Linkin</a>
+</div>
+
+
+<p>This project is my starting point in order to better understand data structure. I decided to implement an Heap as a implicit data structure. The binary tree structure consists of of a dynamically allocated array, the size capacity of the Heap and the number of values in the Heap<p>
+
+<p>Struct of heap: </p>
+<img src="../images/compSci03.png" width="700px" alt="c program uploaded">
+ 
+<p>Adding values to the heap: </p>
+<img src="../images/compSci04.png" width="700px" alt="c program uploaded">
+<p>AddElement adds the new value to the end of the array and increases the size value. The AddElement calls heapify to up-heapify starting from the last node to balance the heap. When heapify is called, the values of i and the parent are compared and swapped if data is greater the the parent. Then heapify is called recursively for the parent moving up the tree to help build the sorted heap.</p>
+
+<h3>Sources:</h3>
+<ul>
+	<li><a href="https://www.geeksforgeeks.org/insertion-and-deletion-in-heaps/">https://www.geeksforgeeks.org/insertion-and-deletion-in-heaps/</li>
+	<li><a href="https://medium.com/@randerson112358/max-heap-deletion-step-by-step-f402861523da">https://medium.com/@randerson112358/max-heap-deletion-step-by-step-f402861523da</li>
+</ul>
+
+</body>
+</html> 
